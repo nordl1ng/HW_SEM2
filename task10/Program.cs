@@ -6,6 +6,7 @@
 
 Console.WriteLine("Введите трехзначное число: ");
 int a = int.Parse(Console.ReadLine());
+a = Math.Abs(a);
 if (!(a < 100|| a > 999))
 {
    a = a % 100;
