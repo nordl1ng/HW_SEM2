@@ -7,10 +7,13 @@
 Console.WriteLine("Введите трехзначное число: ");
 int a = int.Parse(Console.ReadLine());
 a = Math.Abs(a);
-if (!(a < 100|| a > 999))
+if (a < 100 || a > 999)
 {
-   a = a % 100;
-   a = a / 10;
+    Console.WriteLine("Число не трехзначное");
+}
+else
+{
+    a = a % 100;
+    a = a / 10;
     Console.WriteLine(a);
 }
-else {Console.WriteLine("Число не трехзначное");}

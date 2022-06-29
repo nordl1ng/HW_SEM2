@@ -7,8 +7,8 @@
 Console.WriteLine("Введите число, порядковый день недели (от 1 до 7): ");
 int a = int.Parse(Console.ReadLine());
 
-    switch (a)
-    {
+switch (a)
+{
     case 1: Console.WriteLine("Рабочий день "); break;
     case 2: Console.WriteLine("Рабочий день "); break;
     case 3: Console.WriteLine("Рабочий день "); break;
@@ -17,4 +17,4 @@ int a = int.Parse(Console.ReadLine());
     case 6: Console.WriteLine("Выходной "); break;
     case 7: Console.WriteLine("Выходной "); break;
     default: Console.WriteLine("Введите от 1 до 7 "); break;
-    }
+}
